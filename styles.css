@@ -1,0 +1,210 @@
+* 
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+
+}
+
+body 
+{ 
+	background-color:#b67f56;
+	font-family: 'Arvo', serif;	
+	font-weight: 400; 
+	font-size: 14px;
+	line-height: 16px;	
+	overflow: hidden;
+}
+
+h1 
+{
+	margin-top: 7px;
+	font-size: 18px;
+	color: #F68C20;
+}
+
+
+#Produktbeschreibung
+
+{	position: fixed;
+	top: 0px;
+	left:335px;
+	width: 300px;
+	height: 200px;
+	font-size: 12px;
+	width: 412px;
+	height: 283px;
+	background: url(img/produkt_info.png) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: none;
+
+}
+
+#erdbeere
+
+{	position: relative;
+	top: 260px;
+	left:365px;
+	width: 140px;
+	height: 120px;
+	font-size: 12px;
+}
+
+#orange
+
+{	position: relative;
+	top: 280px;
+	left:205px;
+	width: 140px;
+	height: 120px;
+	font-size: 12px;
+}
+
+#erdbeere:hover #Produktbeschreibung.erdbeere 
+{
+
+	display: block; 
+}
+
+#orange:hover #Produktbeschreibung.orange 
+{
+
+	display: block; 
+}
+
+#wrapper
+{
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-right: 100px;
+	width: 792px;
+	height: 621px;
+	background-color: white;
+	margin-left: 150px;
+	border-radius: 35px 35px 35px 35px / 35px 35px 35px 35px;
+	background: url(img/Content_BG.png) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#navi 
+{
+	position:fixed;
+	top:140px;
+	left:140px;
+	width:196px; height:162px;
+	background: url(img/NAVI_BG.png) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 10;
+
+}
+#navi .home {
+	width: 79px;
+	height: 15px;
+	background: url(img/navi_home.png) no-repeat;
+
+}
+
+#navi .home:hover 
+{
+background: url(img/navi_produkte.png) no-repeat;
+
+}
+
+#navi a 
+{
+	text-indent: -9999px;
+	overflow: hidden;
+	display: block;
+}
+#navi ul {
+	margin-left: 40px;
+	margin-top: 40px;
+	list-style: none;
+
+}
+
+#navi p 
+
+{
+	margin: 40px;
+	font-family: LinotypeMineru;
+	font-weight: Bold;
+	color: #F68C20;
+	visibility: hidden;
+}
+
+#logo 
+{
+	position:absolute;
+	top:15px;
+	left:650px;
+	width:260px; 
+	height:260px;
+
+}
+
+#intro	 
+{	    position:absolute;
+	top:320px;
+	left:210px;
+	width:260px; 
+	height:260px;
+}
+
+#impressum
+{		
+	position:absolute;
+	top:550px;
+	left:820px;
+	width:141px; 
+	height:74px;
+}
+
+#spalte1
+
+{	position:absolute;
+	top:240px;
+	left:340px;
+	width:500px; 
+	height:130px;
+}
+
+#spalte1 p 
+{
+
+	font-size: 14px;
+}
+
+#content_kontakt
+
+{	position:absolute;
+	top:240px;
+	left:340px;
+	width:200px; 
+	height:130px;
+
+}
+#content_kontakt p
+{
+
+	margin-top: 5px;
+}
+
+#graphic.produkte
+
+{
+	position: absolute;
+	width: 792px;
+	height: 621px;
+	background: url(img/page3_graphic.png) no-repeat
+
+}
