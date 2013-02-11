@@ -1,0 +1,434 @@
+* 
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+
+}
+
+body 
+{ 
+	background-color:#b67f56;
+	font-family: 'Arvo', serif;	
+	font-weight: 400; 
+	font-size: 14px;
+	line-height: 16px;	
+	overflow: hidden;
+}
+
+h1 
+{
+	margin-top: 7px;
+	font-size: 18px;
+	color: #F68C20;
+}
+
+
+#Produktbeschreibung
+
+{	position: fixed;
+	top: 0px;
+	left:335px;
+	width: 300px;
+	height: 200px;
+	font-size: 12px;
+	width: 412px;
+	height: 283px;
+	background: url(img/produkt_info.png) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: none;
+
+}
+
+#Produktbeschreibung img
+{
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
+#Produktbeschreibung p
+{
+	position: relative;
+	top: 15px;
+	width: 200px;
+	left: 180px;
+}
+#erdbeere
+
+{	position: relative;
+	top: 260px;
+	left:365px;
+	width: 140px;
+	height: 120px;
+	font-size: 12px;
+}
+
+#zimt
+
+{	
+	position: relative;
+	top: 334px;
+	left: 147px;
+	width: 205px;
+	height: 103px;
+}
+
+#cranbery
+
+{	
+	position: relative;
+	top: 34px;
+	left: 158px;
+	width: 176px;
+	height: 91px;
+	font-size: 12px; 
+
+}
+
+#minze
+
+{	
+	position: relative;
+	top: -85px;
+	left: 505px;
+	width: 162px;
+	height: 91px;
+	font-size: 12px;
+}
+
+#ingwer
+
+{	
+	position: relative;
+top: -47px;
+left: 603px;
+width: 156px;
+height: 109px;
+	font-size: 12px;
+}
+
+#dunkle_orange
+
+{	
+	position: relative;
+top: -146px;
+left: 31px;
+width: 162px;
+height: 101px;
+}
+
+#weisse_orange
+
+{	
+	position: relative;
+top: -217px;
+left: 393px;
+width: 162px;
+height: 122px;
+	font-size: 12px;
+}
+
+#chili
+
+{	
+position: relative;
+top: -598px;
+left: 152px;
+width: 162px;
+height: 122px;
+}
+
+#cranbery:hover #Produktbeschreibung.cranbery 
+
+{
+
+	display: block; 
+}
+
+#ingwer:hover #Produktbeschreibung.ingwer 
+
+{
+
+	display: block; 
+}
+
+#chili:hover #Produktbeschreibung.chili 
+
+{
+
+	display: block; 
+}
+#dunkle_orange:hover #Produktbeschreibung.dunkle_orange
+
+{
+
+	display: block; 
+}
+
+#weisse_orange:hover #Produktbeschreibung.weisse_orange
+
+{
+
+	display: block; 
+}
+
+
+#minze:hover #Produktbeschreibung.minze 
+{
+
+	display: block; 
+}
+
+#erdbeere:hover #Produktbeschreibung.erdbeere 
+{
+
+	display: block; 
+}
+
+#zimt:hover #Produktbeschreibung.zimt 
+{
+
+	display: block; 
+}
+
+#wrapper
+{
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-right: 100px;
+	width: 792px;
+	height: 621px;
+	background-color: white;
+	margin-left: 150px;
+	border-radius: 35px 35px 35px 35px / 35px 35px 35px 35px;
+	background: url(img/Content_BG.png) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#navi 
+{
+	position:fixed;
+	top:140px;
+	left:140px;
+	width:196px; height:162px;
+	background: url(img/navi_bg.png) no-repeat center center ; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 10;
+
+}
+#navi .home {
+	width: 79px;
+	height: 15px;
+	background: url(img/navi_home.png) no-repeat;
+
+}
+
+#navi .produkte {
+	width: 93px;
+	height: 15px;
+	background: url(img/navi_produkte.png) no-repeat;
+
+}
+
+#navi .herstellung {
+	width: 128px;
+	height: 21px;
+	background: url(img/navi_herstellung.png) no-repeat;
+
+}
+
+#navi .kontakt {
+	width: 124px;
+	height: 15px;
+	background: url(img/navi_kontakt.png) no-repeat ;
+
+}
+
+#navi .home:hover 
+
+{
+	background: url(img/navi_home_b.png) no-repeat;
+
+}
+
+#navi .produkte:hover 
+{
+	background: url(img/navi_produkte_b.png) no-repeat;
+
+}
+
+#navi .herstellung:hover 
+{
+	background: url(img/navi_herstellung_b.png) no-repeat;
+
+}
+
+#navi .kontakt:hover 
+{
+	background: url(img/navi_kontakt_b.png) no-repeat;
+
+}
+
+#navi a 
+{
+	text-indent: -9999px;
+	overflow: hidden;
+	display: block;
+}
+#navi ul {
+	margin-left: 40px;
+	margin-top: 44px;
+	list-style: none;
+
+}
+
+#navi p 
+
+{
+	margin: 40px;
+	font-family: LinotypeMineru;
+	font-weight: Bold;
+	color: #F68C20;
+	visibility: hidden;
+}
+
+#logo 
+{
+	position:absolute;
+	top:15px;
+	left:650px;
+	width:260px; 
+	height:260px;
+	background: url(img/logo.png) no-repeat;
+
+}
+
+#intro	 
+{	position:absolute;
+	top:320px;
+	left:210px;
+	width:260px; 
+	height:260px;
+}
+
+#impressum
+{		
+	position:absolute;
+	top:550px;
+	left:820px;
+	width:141px; 
+	height:74px;
+}
+
+#spalte1
+
+{	position:absolute;
+	top:240px;
+	left:340px;
+	width:500px; 
+	height:130px;
+}
+
+#spalte1 p 
+{
+
+	font-size: 14px;
+}
+
+#content_kontakt
+
+{	position:absolute;
+	top:240px;
+	left:340px;
+	width:200px; 
+	height:130px;
+
+}
+#content_kontakt p
+{
+
+	margin-top: 5px;
+}
+
+#graphic.produkte
+
+{
+	position: absolute;
+	width: 792px;
+	height: 621px;
+	background: url(img/page3_graphic.png) no-repeat
+
+}
+#graphic.home
+{
+	position: absolute;
+	width: 792px;
+	height: 621px;
+	background: url(img/page1_graphic.png) no-repeat
+
+}
+
+#graphic.kontakt
+
+{
+	position: absolute;
+	width: 792px;
+	height: 621px;
+	background: url(img/page4_graphic.png) no-repeat
+
+}
+
+#graphic.impressum
+
+{
+	position: absolute;
+	width: 792px;
+	height: 621px;
+	background: url(img/impressum_graphic.png) no-repeat
+
+}
+
+#text 
+{
+	position: relative;
+	top: 220px;
+	left: 180px;
+	width: 572px;
+	height: 321px;
+	overflow: scroll;
+
+}
+#text h2
+{
+	font-size: 15px;
+	margin-top: 10px;
+}
+#text p 
+{
+	margin-top: 5px;
+	font-size: 12px;
+}
+#impressum a 
+{
+	text-indent: -9999px;
+	overflow: hidden;
+	display: block;
+	height: 74px;
+}
+
+#impressum {
+	width: 141px;
+	height: 74px;
+	background: url(img/impressum.png) no-repeat;
+
+}
